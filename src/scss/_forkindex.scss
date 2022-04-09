@@ -1,5 +1,5 @@
 .fork {
-  background-image: url("/src/img/Layer 2 (2).png");
+  background-image: url("./src/img/Layer 2 (2).png");
   background-size: cover;
 
   &__title {
@@ -179,16 +179,8 @@
     padding-bottom: 100px;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    //margin: 0 90px 0 80px;
-
-    //.block-media {
-    //  display: flex;
-    //  justify-content: space-between;
-    //  align-items: center;
-    //}
 
     .fork__block-active {
-      //margin: 12px 25px 94px 0;
       margin-right: 35px;
       margin-left: 0;
     }

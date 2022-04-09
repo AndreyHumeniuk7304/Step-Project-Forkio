@@ -1,0 +1,103 @@
+.header-foot {
+  background-image: url(/src/img/img-1.png);
+  min-height: 500px;
+  min-width: $minWidthContent;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 50px;
+
+  &__main-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  &__subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: $mainColor;
+    text-align: center;
+    margin-top: 19px;
+    padding: 0 11px;
+
+    &__version-text {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 14px;
+      margin-top: 14px;
+      color: #848e97;
+    }
+  }
+
+  &__download {
+    width: 100%;
+    position: relative;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+
+    &-btn {
+      position: absolute;
+      bottom: -83px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(141, 129, 172, 1);
+      width: 290px;
+      height: 45px;
+      border-radius: 40px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 20px;
+      color: #ffffff;
+      border: none;
+      cursor: pointer;
+    }
+
+    &__trial-period {
+      position: absolute;
+      bottom: -105px;
+      color: #848e97;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+}
+
+@media (min-width: 481px) {
+  .header-foot__download-btn {
+    bottom: -105px;
+    width: 390px;
+  }
+
+  .header-foot__download__trial-period {
+    bottom: -145px;
+  }
+}
+
+@media (min-width: 993px) {
+  .container {
+    max-width: 1200px;
+  }
+  .header-foot {
+    padding-top: 183px;
+  }
+
+  .header-foot__download-btn {
+    transition: 0.3s;
+    border: 2px solid transparent;
+  }
+  .header-foot__download-btn:hover {
+    background-color: #fff;
+    color: #8d81ac;
+    border: 2px solid $mainColor;
+  }
+}

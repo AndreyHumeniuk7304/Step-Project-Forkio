@@ -1,0 +1,111 @@
+.main__about-fork {
+  background-image: url(/src/img/testmonials-bg\ 2.png);
+  min-width: $minWidthContent;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 57px;
+
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 53px;
+  }
+}
+
+.companies {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+.company-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+
+  &__logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__text {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 0 25px;
+  }
+}
+
+.main__about-fork__foot {
+  text-align: center;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #a291a5;
+  padding: 37px 25px 0;
+  position: relative;
+
+  &::after {
+    display: block;
+    margin-top: 22px;
+    content: "";
+    min-width: 245px;
+    height: 2px;
+    background-color: rgba(100, 87, 102, 1);
+  }
+}
+
+@media (min-width: 481px) {
+  .main__about-fork {
+    padding-top: 87px;
+
+    &__foot {
+      padding-top: 67px;
+    }
+
+    &__title {
+      font-size: 42px;
+      line-height: 44px;
+    }
+  }
+  .companies {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 88px;
+  }
+  .company-box {
+    flex-wrap: wrap;
+    flex: 40%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .main__about-fork {
+    padding-top: 108px;
+  }
+  .company-box {
+    flex: 30%;
+  }
+
+  .main__about-fork__foot {
+    padding-top: 118px;
+    padding-bottom: 18px;
+  }
+}

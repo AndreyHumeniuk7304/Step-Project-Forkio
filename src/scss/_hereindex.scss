@@ -1,0 +1,151 @@
+.here {
+  margin: 0 auto;
+}
+
+.here__title {
+  color: $hereTitleColor;
+  @include hereTitleFont;
+}
+
+.here__block {
+  &-item {
+    &-img {
+      display: block;
+      margin: 36px auto 27px;
+    }
+
+    &-title {
+      color: $hereBlockTitleColor;
+      @include hereBlockTitleFont;
+      margin-bottom: 14px;
+    }
+
+    &-text {
+      color: $hereBlockTextColor;
+      @include hereBlockTextFont;
+      margin: 0;
+    }
+  }
+}
+
+.here__img {
+  margin-top: 64px;
+}
+
+.here__title-media {
+  display: none;
+  color: $hereTitleColor;
+  @include hereTitleMediaFont;
+  margin-bottom: 19px;
+}
+
+.here__img-media {
+  display: none;
+  margin-left: 68px;
+}
+
+@media screen and (min-width: 480px) {
+  .here__block {
+    margin-left: 30px;
+  }
+
+  .here__title {
+    font-size: 42px;
+    line-height: 44px;
+    margin-bottom: 50px;
+  }
+
+  .here__block-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  .here__block-item:first-child .img-wrapper {
+    width: 240px;
+  }
+
+  .img-wrapper {
+    width: 280px;
+  }
+
+  .here__block-item-img {
+    margin: 0;
+  }
+
+  .here__block-item-media {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .here__block-item-title {
+    line-height: 21px;
+    margin-bottom: 0;
+  }
+
+  .here__block-item-text {
+    text-align: start;
+  }
+
+  .here__img {
+    display: none;
+  }
+
+  .here__img-media {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .here {
+    display: flex;
+    background-color: $hereBackGroundColor;
+    padding-top: 94px;
+  }
+
+  .here__title {
+    display: none;
+  }
+
+  .here__block {
+    flex: 1 0 50%;
+  }
+
+  .here__block-item {
+    margin-bottom: 35px;
+  }
+
+  .here__block-item:first-child .img-wrapper {
+    width: 340px;
+  }
+
+  .img-wrapper {
+    max-width: 380px;
+  }
+
+  .here__block-item-title {
+    margin-bottom: 17px;
+  }
+
+  .here__block-item-text {
+    padding-right: 50px;
+  }
+
+  .here__img-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .here__title-media {
+    display: block;
+  }
+
+  .here__img-media {
+    margin-right: 20px;
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,21 @@
+@import "_reset.scss";
+@import "_variables.scss";
+@import "_header.scss";
+@import "_header-foot.scss";
+@import "_about-fork-section.scss";
+@import "_revindex.scss";
+@import "_mixins.scss";
+@import "_forkindex";
+@import "_hereindex.scss";
+
+.container {
+  min-width: $minWidthContent;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}

@@ -30,6 +30,7 @@
 
 .here__img {
   margin-top: 64px;
+  width: 100%;
 }
 
 .here__title-media {
@@ -41,7 +42,7 @@
 
 .here__img-media {
   display: none;
-  margin-left: 68px;
+  width: 100%;
 }
 
 @media screen and (min-width: 480px) {
@@ -94,6 +95,7 @@
 
   .here__img-media {
     display: block;
+    width: 100%;
   }
 }
 

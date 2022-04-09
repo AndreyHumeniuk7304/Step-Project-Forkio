@@ -1,4 +1,3 @@
-
 @mixin hereTitleFont {
   text-align: center;
   font-style: normal;
@@ -8,58 +7,57 @@
 }
 
 @mixin hereBlockTitleFont {
-      text-align: center;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 16px;
-      }
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+}
 
 @mixin hereBlockTextFont {
-      text-align: justify;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 21px;
-      }
+  text-align: justify;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
 
 @mixin hereTitleMediaFont {
-      font-style: normal;
-      font-weight: bold;
-      font-size: 48px;
-      line-height: 50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 50px;
 }
 
 @mixin forkCardTitleColor {
-       text-transform: uppercase;
-       font-style: normal;
-       font-weight: normal;
-       font-size: 24px;
-       line-height: 24px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
 }
 
 @mixin forkCardTextFont {
-      text-align: center;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 28px;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
 }
 
 @mixin forkSpanPeriodFont {
-      text-align: center;
-      text-transform: uppercase;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 @mixin forkSpanActiveFont {
-      text-align: center;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 32px;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
 }
-

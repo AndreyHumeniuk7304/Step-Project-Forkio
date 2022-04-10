@@ -61,3 +61,51 @@
   font-size: 16px;
   line-height: 32px;
 }
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin editor-wrap-text {
+  font-family: $font-lato;
+  font-size: 12px;
+  font-weight: 500;
+  color: #24292f;
+  line-height: 20px;
+}
+
+@mixin hover-btn {
+  &:hover {
+    color: $purple;
+    background: $white;
+    border: 1px solid $purple;
+  }
+}
+
+@mixin pricing-wrap__title-name {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: $font-montserrat;
+  color: $white;
+  text-transform: uppercase;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@mixin pricing-wrap__price {
+  font-size: 60px;
+  line-height: 62px;
+  color: $white;
+  text-transform: uppercase;
+  font-family: $font-montserrat;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}

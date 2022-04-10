@@ -1,5 +1,19 @@
-$mainColor: rgba(141, 129, 172, 1);
 $minWidthContent: 320px;
+
+// Fonts
+$font-lato: "Lato", sans-serif;
+$font-montserrat: "Montserrat", sans-serif;
+
+// Colors
+$mainColor: rgba(141, 129, 172, 1);
+$white: #fff;
+$black: #000;
+$purple: #8d81ac;
+$gray: #848e97;
+$accent-gray: #323232;
+$accent-purple: #635c73;
+$edit-color: #24292f;
+$about-fork-color: #a291a5;
 $hoverColor: #fff;
 $hereTitleColor: #8d81ac;
 $hereBlockTitleColor: #323232;
@@ -8,3 +22,14 @@ $forkTextColor: #ffffff;
 $hereBackGroundColor: #f4f4f4;
 $forkBackCardColor: rgba(255, 255, 255, 0.06);
 $forkBackCardActiveColor: #463048;
+
+// Breakpoints
+$min-media-mobile: 320px;
+$middle-media-mobile: 400px;
+$max-media-mobile: 480px;
+$min-media-tablet: 481px;
+$middle-media-tablet: 540px;
+$media-tablet: 768px;
+$max-media-tablet: 992px;
+$min-media-desktop: 993px;
+$max-media-desktop: 1200px;
